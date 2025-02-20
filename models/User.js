@@ -15,7 +15,7 @@ const userSchema = mongoose.Schema({
     required: true,
     minLength: 6,
   },
-  // posts: [{ type: mongoose.Types.ObjectId, ref: "Post" }],
+
   posts: [
     {
       type: mongoose.Types.ObjectId,

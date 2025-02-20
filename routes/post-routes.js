@@ -1,5 +1,4 @@
 const { Router } = require("express");
-// import { addPost, deletePost, getAllPosts, getPostById, updatePost } from "../controllers/post-controller";
 const { getAllPosts, addPost, getPostById, updatePost, deletePost } = require("../controllers/post-controller");
 
 const postRouter = Router();
